@@ -1,0 +1,23 @@
+body{
+    background-color: #454545;
+}
+#wrapper{
+    width:400px;
+    margin: 0 auto;
+    font-family: Helvetica;
+    font-weight: normal;
+    color: #EEEDF0;  
+}
+h1{
+    text-align: center;
+    margin:0;
+}
+p{ 
+    margin:0 auto;
+    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+hr{
+    border: 1px solid;
+}

@@ -1,0 +1,43 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>jQuery Resize Master3000</title>
+    <link rel="stylesheet" href="css/resizeMaster.css">
+</head>
+<body>
+    <div id="wrapper">
+        <div class="center">
+            <h1>JQUERY RESIZE MASTER<br><hr><span class="num">3000</span></h1>
+            <hr>
+            <p>
+                Behold the magnificence of <strong>JQUERY'S RESIZE MASTER 3000</strong> 
+                (a plugin made in the fires of Mount Doom) and prepare to get your mind 
+                blown away! The new age of flexible desgin is now in your hands! Are you 
+                ready to wield it's <strong>POWER</strong>?
+           </p>
+        </div>
+    </div>
+    <script src="js/jquery-1.9.1.js"></script>
+    <script src="js/jquery.resizeMaster3000.js"></script>
+    <script src="js/center.js"></script>
+    <script>
+
+        $('h1').resizeMaster3000({
+            minFont:22,
+            maxFont:29
+        });
+
+        $('.num').resizeMaster3000({
+            minFont:126,
+            maxFont:166
+        });
+
+        $('p').resizeMaster3000({
+            minFont:12,
+            maxFont:16,
+            lineRatio:1.3
+        });
+        
+    </script>
+</body>
+</html>
